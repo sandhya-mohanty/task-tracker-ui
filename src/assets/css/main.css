@@ -1,0 +1,100 @@
+body {
+  background: rgb(244, 219, 249);
+  background: linear-gradient(
+    90deg,
+    rgba(244, 219, 249, 1) 0%,
+    rgba(236, 219, 251, 1) 35%,
+    rgba(226, 219, 252, 1) 100%
+  );
+  padding: 50px;
+}
+
+.taskboard-border{
+  border: 2px solid white;
+  border-radius: 10px;
+  padding:20px;
+}
+
+.bg-deep-violet {
+  --bs-bg-opacity: 1;
+  background-color: #353976 !important;
+}
+
+.bg-brick {
+  --bs-bg-opacity: 1;
+  background-color: #f68871 !important;
+}
+
+.btn-white {
+  color: #3c3b3b;
+  background-color: hsl(300, 25%, 98%);
+  border-color: hsl(300, 37%, 96%);
+}
+
+.bg-primary,
+.btn-primary {
+  background-color: #26689b !important;
+}
+
+.bg-secondary {
+  background-color: #8c8b90 !important;
+}
+
+.bg-warning {
+  background-color: #e89922 !important;
+}
+
+.icon {
+  background: white;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 45%;
+}
+
+.vertical-space-1 {
+  margin-bottom: 5px;
+}
+
+.vertical-space-2 {
+  margin-bottom: 10px;
+}
+
+.vertical-space-3 {
+  margin-bottom: 15px;
+}
+
+.task-body {
+  background-color: #f3f1f2;
+  padding: 15px;
+}
+
+.task-title {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.task-assignName {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.modal-body{
+  background-color: #EEDBFB !important;
+}
+
+label {
+  display: block;
+  margin-top: 1em;
+}
+
+.req {
+  color: red !important;
+  font-size: 20px !important;
+}
+
+*:required {
+  background-color: gold !important;
+}
